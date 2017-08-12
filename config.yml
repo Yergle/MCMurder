@@ -1,27 +1,6 @@
-# MCMurder is developed by Fudged. Please report all bugs on Spigot.
-# Do not leave bad reviews if there is an error, instead contact me and I will fix it.
-#
-
-# Numbers used in the plugin
-Numbers:
-  # Seconds until game begins (lobby)
-  GameCountdown: 30
-  # Seconds until roles are decided (happens after the game countdown)
-  RoleCountdown: 5
-  # How many seconds should occur between each scrap? (Scrap happens every x seconds)
-  Scrap: 15
-  # Number of scrap required to get a gun
-  RequiredScrap: 3
-Items:
-  Sword: 
-    Type: "IRON_SWORD"
-    Name: "&eKnife"
-  Gun: 
-    Type: "BOW"
-    Name: "&ePistol"
-  Arrow: 
-    Type: "ARROW"
-    Name: "Ammunition"
-  Scrap: 
-    Type: "GOLD_INGOT"
-    Name: "Gun Scrap"
+PREFIX: "&c&lMCMurder"
+PRIMARY_COLOR: "gray"
+SECONDARY_COLOR: "red"
+SCOREBOARD_HEADER: "&4&lMCMurder"
+MAX_PLAYERS: 8
+GAMETIME: 300

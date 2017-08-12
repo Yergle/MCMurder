@@ -1,6 +1,6 @@
 name: MCMurder
 version: 1.0
-main: me.fudged.murder.Murder
+main: me.fudged.murder2.MCMurder
 Authors: Fudged
 commands: 
     murder:
