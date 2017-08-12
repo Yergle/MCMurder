@@ -1,0 +1,42 @@
+name: MCMurder
+version: 1.0
+main: me.fudged.murder.Murder
+Authors: Fudged
+commands: 
+    murder:
+        description: Basic MCMurder command
+        usage: /<command>
+permissions: 
+    murder.arena.join:
+        description: Permission to join a MCMurder game
+        default: true
+    murder.arena.leave:
+        description: Permission to leave a MCMurder game
+        default: true
+    murder.arena.create:
+        description: Permission to create arenas
+        default: op
+    murder.arena.delete:
+        description: Permission to delete arenas
+        default: op
+    murder.arena.start:
+        description: Permission to start a game
+        default: op
+    murder.arena.stop:
+        description: Permission to stop a game
+        default: op
+    murder.arena.enable:
+        description: Permission to enable an arena
+        default: op
+    murder.arena.disable:
+        description: Permission to disable an arena
+        default: op
+    murder.arena.setspawn:
+        description: Permission to set locations of an arena
+        default: op
+    murder.arena.tp:
+        description: Permission to tp to the locations of an arena
+        default: op
+    murder.arena.reload:
+        description: Permission to reload MCMurder
+        default: op
